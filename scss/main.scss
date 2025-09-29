@@ -1,1 +1,8 @@
 @use "base/reset";
+@use "utils/variables" as *;
+
+body {
+    font-family: $font-poppins;
+    background: $color-background;
+    color: $color-foreground;
+}
