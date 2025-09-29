@@ -5,6 +5,8 @@
 @use "layout/hero";
 @use "components/logos";
 @use "components/product-image";
+@use "layout/features";
+@use "components/feature";
 
 body {
     font-family: $font-poppins;
