@@ -1,0 +1,51 @@
+@use "../utils/variables" as *;
+
+.user--feedback {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .feedback--card {
+    background: $color-secondary;
+    border-radius: $radius-lg;
+    padding: 80px 30px;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+      padding: 80px 160px;
+        
+    }
+
+    .quote {
+      font-size: 24px;
+      font-weight: 600;
+      color: $color-secondary-foreground;
+    }
+
+    .user {
+      margin-top: 80px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      @media (min-width: 768px) {
+        margin-top: 50px;
+      }
+
+      .profile--pic {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: fill;
+      }
+
+      .name {
+        color: $color-background;
+        opacity: 0.4;
+      }
+
+      .stars {
+        display: flex;
+      }
+    }
+  }
+}
