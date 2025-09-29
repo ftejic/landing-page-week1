@@ -1,0 +1,16 @@
+@use "../utils/variables" as *;
+
+.product--image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  @media (min-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  img {
+    border-radius: $radius-md;
+    background: $color-image-bg;
+  }
+}
