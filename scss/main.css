@@ -157,6 +157,35 @@ nav ul {
   background: #FDF5DF;
 }
 
+.features {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+@media (min-width: 1024px) {
+  .features {
+    flex-direction: row;
+  }
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+}
+.feature img {
+  margin: 0 auto;
+}
+.feature .name {
+  font-weight: 600;
+  margin-top: 40px;
+}
+.feature .desc {
+  opacity: 0.4;
+  margin-top: 10px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #2B2B2B;
