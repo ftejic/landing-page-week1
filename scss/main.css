@@ -186,6 +186,52 @@ nav ul {
   margin-top: 10px;
 }
 
+.user--feedback {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.user--feedback .feedback--card {
+  background: #BFAFF2;
+  border-radius: 20px;
+  padding: 80px 30px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .user--feedback .feedback--card {
+    padding: 80px 160px;
+  }
+}
+.user--feedback .feedback--card .quote {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+.user--feedback .feedback--card .user {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .user--feedback .feedback--card .user {
+    margin-top: 50px;
+  }
+}
+.user--feedback .feedback--card .user .profile--pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.user--feedback .feedback--card .user .name {
+  color: #2B2B2B;
+  opacity: 0.4;
+}
+.user--feedback .feedback--card .user .stars {
+  display: flex;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #2B2B2B;
