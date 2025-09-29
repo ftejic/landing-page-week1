@@ -2,6 +2,7 @@
 @use "utils/variables" as *;
 @use "layout/top-bar";
 @use "components/button";
+@use "layout/hero";
 
 body {
     font-family: $font-poppins;
@@ -13,9 +14,11 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     @media (min-width: 768px) {
-        padding: 0 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
