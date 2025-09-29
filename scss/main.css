@@ -122,6 +122,41 @@ nav ul {
   }
 }
 
+.logos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width: 2px 0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+@media (min-width: 768px) {
+  .logos {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media (min-width: 1024px) {
+  .logos img {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.product--image {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .product--image {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+.product--image img {
+  border-radius: 15px;
+  background: #FDF5DF;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background: #2B2B2B;

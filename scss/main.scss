@@ -3,6 +3,8 @@
 @use "layout/top-bar";
 @use "components/button";
 @use "layout/hero";
+@use "components/logos";
+@use "components/product-image";
 
 body {
     font-family: $font-poppins;
